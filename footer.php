@@ -1,13 +1,15 @@
 <footer>
 <div class="container-fluid">
     <div class="grid w-100">
-        <div class="row no gutters w-100 h-200" id = "subscribe-sect">
-            <div class="col-md-12">
-            <h2 class=" text-center">
-                <span class="breaker">SUBSCRIBE</span>
+        <div class="row no gutters w-100"  id = "subscribe-sect" >
+            <div class="col-md-12" id = "subscribe_section">
+
+            <h2>
+                <span class="breaker" style = "margin-top:30px;">SUBSCRIBE</span>
             </h2>
-            <p style = "text-align:center; color: grey;">Sign up with your email address to receive news and updates</p>
-        
+            <p>Sign up with your email address to receive news and updates</p>
+            <input style = width:25%; type="text" placeholder="Email address" id = "subtext">
+            <button type="button" class="btn btn-secondary m-3">Sign up</button>
             </div>
         </div>
 
@@ -26,11 +28,11 @@
                 </div>
             
                 <div class="flex-column">
-                <span class="navbar-text phone-numbers" id = "terms" >DIVERSITY - RELATIONSHIPS - EDUCATION</span>
+                <span class="navbar-text phone-numbers" id = "terms" >DIVERSITY  -  RELATIONSHIPS  -  EDUCATION</span>
                 </div>
             
                 <div class="flex-column">
-                <span class="navbar-text phone-numbers" id = "copyright" >COPYRIGHT<span><i class="fa fa-copyright" aria-hidden="true"></i></span> 2019 imagineCRM. All rights reserved.</span>
+                <span class="navbar-text phone-numbers" id = "copyright" >COPYRIGHT<span><i class="fa fa-copyright" aria-hidden="true"></i></span> 2019 ImagineCRM. All rights reserved.</span>
                 </div>
             </div>
             <div class="col-md-4">
