@@ -17,7 +17,7 @@
 
     <meta name="viewport" content="width=device-width">
     <link rel="pingback" href="<?php bloginfo('pingback_url'); ?>" />
-    
+
 
     <?php wp_head(); ?>
 </head>
@@ -111,7 +111,7 @@
                         <?php endif; ?>
                     </div>
                 </div>
-                <div class="row justify-content-center mt-5">
+                <div class="row justify-content-center mt-5" id="hero">
                     <div class="col-md-12">
                         <h2 class="display-5 none">
                             <span class="breaker">SALESFORCE</span> <span class="breaker">CONSULTING</span> <span class="breaker">REIMAGINED</span>
