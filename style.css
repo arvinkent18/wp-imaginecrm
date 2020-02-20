@@ -42,9 +42,10 @@ body {
 
 #menu-main-navigation li:last-child {
   background: transparent;
-  border: 1px solid #101010;
+  border: 0 solid #101010;
   text-align: center;
   padding-right: 0 !important;
+  margin-bottom: 0 !important;
 }
 
 #menu-main-navigation li:last-child a {
@@ -265,6 +266,7 @@ Custom media queries
   height: 300px;
 
   /* Create the parallax scrolling effect */
+  background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
