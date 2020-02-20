@@ -19,6 +19,7 @@ body {
   height: 700px;
 
   /* Create the parallax scrolling effect */
+  background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -30,6 +31,13 @@ body {
 
 #menu-main-navigation li a {
   color: #ffc608;
+}
+
+#menu-main-navigation li a:hover {
+  background: transparent;
+  border: 1px solid #101010;
+  text-align: center;
+  color: #fff;
 }
 
 #menu-main-navigation li:last-child {
@@ -253,7 +261,7 @@ Custom media queries
 
 #footer-sect {
   background-image: url("assets/footer.png");
- /* Set a specific height */
+  /* Set a specific height */
   height: 300px;
 
   /* Create the parallax scrolling effect */
@@ -266,53 +274,43 @@ Custom media queries
   margin: 0;
 }
 
-
-#lista{
-
-    display: inline-flex;
-    margin: 70px 0px 0px 50px;
-    padding: 0px 10px 0px 0px;
+#lista {
+  display: inline-flex;
+  margin: 70px 0px 0px 50px;
+  padding: 0px 10px 0px 0px;
 }
-#icons{
-
+#icons {
   font-size: 30px;
   padding: 10px;
 }
 
-#contact{
-
+#contact {
   display: inline-flex;
   margin: 20px 0px 0px 55px;
 }
 
-#terms{
-
+#terms {
   display: inline-flex;
   margin: 0px 0px 0px 55px;
   padding: 0px;
 }
 
-#copyright{
-
+#copyright {
   display: inline-flex;
   margin: 10px 0px 0px 55px;
   padding: 0px;
 }
 
-#botlogo{
-
+#botlogo {
   margin: 0px 0px 0px 120px;
   z-index: 10;
-
 }
 
-#subtextfield{
-
-    align-items: center;
+#subtextfield {
+  align-items: center;
 }
 
-input[type=text] {
-  
+input[type="text"] {
   padding: 12px 20px;
   margin: 8px 0;
   display: inline-block;
@@ -320,11 +318,10 @@ input[type=text] {
   border-radius: 10px;
   box-sizing: border-box;
   text-align: center;
-
 }
 #subscriber-sect {
   background-image: url("assets/footer.png");
- /* Set a specific height */
+  /* Set a specific height */
   height: 300px;
 
   /* Create the parallax scrolling effect */
@@ -337,9 +334,7 @@ input[type=text] {
   margin: 0;
 }
 
-
 .responsive {
   max-width: 100%;
   height: auto;
 }
-
