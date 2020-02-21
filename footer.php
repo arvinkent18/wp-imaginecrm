@@ -1,11 +1,11 @@
 <footer>
 <div class="container-fluid">
     <div class="grid w-100">
-        <div class="row no gutters w-100"  id = "subscribe-sect" >
-            <div class="col-md-12" id = "subscribe_section">
+        <div class="row-fluid w-100 pt-2"  id = "subscribe-sect" >
+            <div class="col-md-12">
 
             <h2>
-                <span class="breaker" style = "margin-top:30px;">SUBSCRIBE</span>
+                <span class="breaker" style = "margin-top:40px;">SUBSCRIBE</span>
             </h2>
             <p>Sign up with your email address to receive news and updates</p>
             <input style = width:25%; type="text" placeholder="Email address" id = "subtext">
@@ -15,7 +15,7 @@
 
 
 
-        <div class="row no-gutters w-100" id="footer-sect">
+        <div class="row  w-100" id="footer-sect">
             <div class="col-md-8">
             <ul class="fa-ul" id="lista">
             <li> <a href="https://www.w3schools.com"><i style="color: white;" class="fa fa-facebook-f" id = "icons"></i></a></li>

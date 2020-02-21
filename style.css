@@ -123,6 +123,13 @@ No media query since this is the default in Bootstrap because it is "mobile firs
 */
 
 /* Small devices (landscape phones, 544px and up) */
+@media (min-width: 0) {
+  #botlogo{
+    display: none;
+
+  }
+}
+
 @media (min-width: 544px) {
   #company-details {
     text-align: center;
@@ -134,6 +141,18 @@ No media query since this is the default in Bootstrap because it is "mobile firs
   #menu-main-navigation li {
     padding-right: 0;
   }
+
+  #subtext{
+    width: 10%;
+
+  }
+
+  #botlogo{
+    display:none;
+
+  }
+  
+
 }
 
 /* Medium devices (tablets, 768px and up) 
@@ -153,10 +172,19 @@ The navbar toggle appears at this breakpoint */
     left: 75px !important;
     color: #000000;
   }
+  #botlogo{
+    display: block;
+
+  }
+
 }
 
 /* Large devices (desktops, 992px and up) */
 @media (min-width: 992px) {
+    #botlogo{
+      display: block;
+
+    }
 }
 
 /* Extra large devices (large desktops, 1200px and up) */
@@ -195,6 +223,8 @@ Custom media queries
   .multisteps-form__progress-btn {
     text-indent: 0;
   }
+
+
 }
 
 .multisteps-form__progress-btn:before {
@@ -301,7 +331,7 @@ Custom media queries
 
 #botlogo{
 
-  margin: 0px 0px 0px 120px;
+  margin: 0px 0px 0px 20px;
   z-index: 10;
 
 }
@@ -350,5 +380,17 @@ input[type=text] {
  background-color: lightgray;
  margin-left: 0px;
 height: 300px;
+}
+
+input[type=submit] {
+  
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  box-sizing: border-box;
+  text-align: center;
+
 }
 
